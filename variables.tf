@@ -6,7 +6,7 @@ variable "region" {
   type        = string
 }
 variable "zone" {
-  default = "europe-west4a"
+  default = "europe-west4-a"
   type    = string
 }
 variable "os_image" {
@@ -25,7 +25,7 @@ variable "vm_params" {
   default = {
     name                      = "test-instance"
     machine_type              = "e2-micro"
-    zone                      = "europe-west4"
+    zone                      = "europe-west4-a"
     allow_stopping_for_update = true
   }
 }
